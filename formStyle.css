@@ -1,0 +1,108 @@
+.topnav{
+  background-color: rgba(91, 110, 196, 0.397);
+  overflow: hidden;
+}
+
+body{
+  background-color: rgba(202, 236, 247, 0.651); 
+}
+  
+.topnav a {
+  float: right;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  font-size: 19px;
+  font-family: League Gothic;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+
+.topnav b {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 24px;
+  font-family: League Gothic;
+}
+
+.topnav a:hover {
+  background-color: rgb(202, 236, 247, 0.651);
+  color: rgb(91, 110, 196, 0.397);
+}
+
+.topnav b.active {
+  background-color: rgb(43, 71, 124);
+  color: white;
+}
+.row {
+  float: center;
+  width: 100%;
+  padding: 5px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+#dw
+  {
+    float: center;
+    color: rgb(100, 5, 25);
+    text-align: center;
+    padding: 14px 16px;      font-size: 24px;
+    font-family: League Gothic;
+  }
+
+/* Create two equal columns that sits next to each other 
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+*/
+
+a:hover {
+color: purple;
+background-color: transparent;
+text-decoration: underline;
+}
+
+#qw
+{
+color: rgb(43, 71, 124);
+text-align: center;
+font-size: 45px;
+font-weight: bolder;
+font-variant: small-caps;
+font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 48%;
+  padding: 25px;
+  height: 255px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  float: right;
+  width: 45%;
+  padding: 20px;
+  height: 255px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
